@@ -14,15 +14,3 @@ $(document).on('click', 'a', function(event){
       }, 500);
     }
 });
-
-function goToGithub() {
-    window.location = "https://github.com/eforkin";
-}
-
-function goToLinkedin() {
-    window.location = "https://www.linkedin.com/in/erik-forkin-33464ba3";
-}
-
-function goToEmail() {
-    window.location = "mailto:eforkin@umich.edu";
-}
