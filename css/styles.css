@@ -116,7 +116,7 @@ nav a:hover {
 }
 
 .index_pic {
-    height: 45%;
+    height: 300px;
     border-radius: 100%;
 }
 
@@ -465,7 +465,7 @@ nav a:hover {
     }
 
     .index_pic {
-        height: 40%;
+        height: 250px;
     }
 
 }
