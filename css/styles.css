@@ -486,10 +486,6 @@ nav a:hover {
         text-align: center;
     }
 
-    nav li {
-        pading: 0;
-    }
-
     nav ul a {
         padding: 0 10px;
     }
