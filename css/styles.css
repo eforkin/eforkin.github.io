@@ -216,12 +216,14 @@ nav a:hover {
 }
 
 .project-card-content {
+    color: black;
     float: left;
     height: 80%;
     width: 70%;
 }
 
 .project-card-title {
+    color: black;
     font: bold 30px 'Roboto', sans-serif;
     padding: 10px 0 5px 0;
     text-align: center;
@@ -238,7 +240,7 @@ nav a:hover {
     background-color: #373737;
 }
 
-.daily-maps-card:hover {
+.daily-maps-card:hover, .pet-rating-app-card:hover {
     cursor: pointer;
 }
 

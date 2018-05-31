@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+nav {
+    position: fixed;
+    z-index: 1000;
+    background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) );
+    height: 60px;
+    line-height: 60px;
+    width: 100%;
+}
+
+nav li {
+    font-family: 'Open Sans', sans-serif;
+    display: inline;
+    text-transform: uppercase;
+    padding: 0 20px;
+}
+
+.nav_name a {
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: white;
+}
+
+.nav_img {
+    float: right;
+    padding: 0 10px;
+    height: 50px;
+    margin: 5px 0;
+}
+
+.nav_title {
+    color: white;
+    font-size: 30px;
+    float: right;
+    line-height: 60px;
+    vertical-align: middle;
+}
+
+.content {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 900px;
+}
+
+.content h1, h2, h3, h4, h5, p, li {
+    font-family: "Open Sans", sans-serif;
+}
+
+.content h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content p, li {
+    font-size: 15px;
+}
+
+.footer {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
