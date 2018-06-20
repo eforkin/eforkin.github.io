@@ -7,10 +7,6 @@ html, body {
     height: 100%;
 }
 
-body {
-    background: linear-gradient(#1ABC9C, #1CFFCD);
-}
-
 nav {
     position: fixed;
     z-index: 1000;
@@ -46,53 +42,44 @@ nav a:hover {
     font-size: 16px;
 }
 
-.left, .right {
-    float: left;
-    height: 100%;
-    width: 50%;
-    padding-top: 125px;
+.content {
+    margin: 0 auto;
+    padding-top: 100px;
+    width: 900px;
 }
 
-.iphone {
-    float: right;
-    height: 700px;
-    padding-right: 50px;
+.content h1, h2, h3, h4, h5, p, li {
+    font-family: "Open Sans", sans-serif;
 }
 
-.right_content {
-    display: flex;
-    flex-direction: column;
-    height: 700px;
-    width: 460px;
+.content h2 {
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.content h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.content p, li {
+    font-size: 15px;
+}
+
+.footer {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8) );
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
-}
-
-.petigree_title {
     color: white;
-    display: inline;
-    font: 60px verdana;
-    margin: 0;
-    padding-top: 20px;
+    font-size: 12px;
+    width: 100%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
 }
 
-.petigree_logo {
-    display: block;
-    margin: 0 auto;
-    padding-top: 10px;
-    width: 100px;
-}
-
-.petigree_description {
-    color: white;
-    font-size: 17px;
-    margin: 0;
-    padding-top: 20px;
-    width: 460px;
-}
-
-.app_store {
-    display: block;
-    margin: 0 auto;
-    padding-top: 60px;
-    width: 250px;
+@media screen and (max-width: 930px) {
+    .content {
+        width: 90%;
+    }
 }
