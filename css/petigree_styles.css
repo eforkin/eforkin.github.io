@@ -47,7 +47,6 @@ nav a:hover {
 }
 
 .left, .right {
-    float: left;
     height: 100%;
     width: 50%;
     padding-top: 125px;
@@ -95,4 +94,62 @@ nav a:hover {
     margin: 0 auto;
     padding-top: 60px;
     width: 250px;
+}
+
+@media screen and (max-width: 950px) {
+
+    body {
+        background: #1ABC9C;
+    }
+
+    .right, .left {
+        width: 100%;
+        float: none;
+        padding-top: 0;
+    }
+
+    .left {
+        padding: 25px 0;
+        height: auto;
+    }
+
+    .right {
+        width: 100%;
+        padding-top: 100px;
+        height: auto;
+    }
+
+    .right_content {
+        margin: 0 auto;
+        height: auto;
+        padding-bottom: 25px;
+    }
+
+    .iphone {
+        display: block;
+        float: none;
+        margin: auto;
+        padding: 0;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+
+    .nav_name {
+        display: none;
+    }
+
+    .nav_tabs {
+        float: none;
+        display: inline-block;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav ul a {
+        padding: 0 10px;
+    }
 }

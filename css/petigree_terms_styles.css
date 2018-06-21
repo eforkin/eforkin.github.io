@@ -83,3 +83,23 @@ nav a:hover {
         width: 90%;
     }
 }
+
+@media screen and (max-width: 500px) {
+
+    .nav_name {
+        display: none;
+    }
+
+    .nav_tabs {
+        float: none;
+        display: inline-block;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav ul a {
+        padding: 0 10px;
+    }
+}
