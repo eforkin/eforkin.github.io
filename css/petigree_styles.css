@@ -149,6 +149,16 @@ nav a:hover {
         text-align: center;
     }
 
+    .right_content {
+        width: 100%;
+    }
+
+    .petigree_description {
+        margin: 0 auto;
+        text-align: center;
+        width: 85%;
+    }
+
     nav ul a {
         padding: 0 10px;
     }
