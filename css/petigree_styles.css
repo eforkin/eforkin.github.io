@@ -81,6 +81,13 @@ nav a:hover {
     width: 100px;
 }
 
+.forkit_logo {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    width: 50px;
+}
+
 .petigree_description {
     color: white;
     font-size: 17px;
