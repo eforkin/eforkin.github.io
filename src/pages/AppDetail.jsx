@@ -25,7 +25,7 @@ function AppDetail() {
           >
             <img src="/img/apple_store.png" alt="Download on the App Store" />
           </a>
-          <Link to="/forkit/privacy" className="privacy-link">
+          <Link to="/forkit/privacy-policy" className="privacy-link">
             Privacy Policy
           </Link>
         </div>

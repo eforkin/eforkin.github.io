@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/forkit" element={<AppDetail />} />
-          <Route path="/forkit/privacy" element={<Privacy />} />
+          <Route path="/forkit/privacy-policy" element={<Privacy />} />
         </Routes>
       </main>
       <Footer />

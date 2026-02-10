@@ -4,11 +4,11 @@
     <meta charset="utf-8" />
     <title>Erik Forkin</title>
     <script>
-      // Single Page App redirect for GitHub Pages
-      // Converts the path into a hash-based route
-      var path = window.location.pathname;
-      var hash = '#' + path;
-      window.location.replace('/' + hash);
+      // SPA redirect for GitHub Pages
+      // Stores the path in a query param and redirects to index.html
+      // where a script restores it via history.replaceState
+      var path = window.location.pathname + window.location.search;
+      window.location.replace('/?p=' + encodeURIComponent(path));
     </script>
   </head>
   <body></body>
