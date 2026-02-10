@@ -32,11 +32,29 @@ function AppDetail() {
             <span className="detail-tag">iOS</span>
             <span className="detail-tag">Swift</span>
           </div>
-          <p className="detail-desc">
-            Split a bill much quicker than manually crunching the numbers in your head.
-            Take a picture of a receipt, choose the people in your group, assign items,
-            and message everyone what they owe.
-          </p>
+          <div className="detail-desc">
+            <p>
+              Forkit allows you to split your restaurant & bar bills much quicker than manually crunching the numbers in your head.
+            </p>
+            <ul>
+              <li>Take a picture of the receipt. We automatically detect each item and its price as well as the tip and tax if applicable</li>
+              <li>Choose the participants in your party from your contacts</li>
+              <li>Assign each item to whomever bought it or split an item amongst multiple participants</li>
+              <li>Manually change the tax and tip if necessary</li>
+              <li>Observe the summary of the items</li>
+              <li>Text a summary to your party for their records with a message crafted by us</li>
+            </ul>
+            <p>
+              An annual subscription unlocks additional features to make splitting more seamless:
+            </p>
+            <ul>
+              <li>Split bills with more than 4 people</li>
+              <li>Send payments with Venmo integration</li>
+              <li>Favorite your most-used contacts</li>
+              <li>Save and view all past receipts</li>
+              <li>Download receipt history as spreadsheet</li>
+            </ul>
+          </div>
         </div>
 
         <div className="detail-legal">
