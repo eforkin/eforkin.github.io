@@ -51,6 +51,12 @@ function AppDetail() {
           >
             EULA &rarr;
           </a>
+          <a
+            href="mailto:eforkin@umich.edu?subject=Forkit%20Dev%20Support"
+            className="detail-legal-link"
+          >
+            Developer Support &rarr;
+          </a>
         </div>
       </div>
     </div>
