@@ -96,18 +96,25 @@
   line-height: 1.7;
 }
 
-.detail-privacy {
-  display: block;
+.detail-legal {
+  display: flex;
+  border-top: 1px solid var(--color-border);
+}
+
+.detail-legal-link {
+  flex: 1;
   padding: 16px 24px;
   font-size: 14px;
   color: var(--color-text-secondary);
-  border-top: 1px solid var(--color-border);
   transition: color var(--transition), background var(--transition);
 }
 
-.detail-privacy:hover {
-  color: var(--color-text);
-  background: var(--color-bg);
+.detail-legal-link + .detail-legal-link {
+  border-left: 1px solid var(--color-border);
+}
+
+.detail-legal-link:hover {
+  color: #007aff;
 }
 
 @media (max-width: 600px) {

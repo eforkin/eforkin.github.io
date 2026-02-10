@@ -39,9 +39,19 @@ function AppDetail() {
           </p>
         </div>
 
-        <Link to="/forkit/privacy-policy" className="detail-privacy">
-          Privacy Policy &rarr;
-        </Link>
+        <div className="detail-legal">
+          <Link to="/forkit/privacy-policy" className="detail-legal-link">
+            Privacy Policy &rarr;
+          </Link>
+          <a
+            href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/"
+            className="detail-legal-link"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Terms of Service &rarr;
+          </a>
+        </div>
       </div>
     </div>
   )
