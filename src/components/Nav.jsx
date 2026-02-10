@@ -8,9 +8,6 @@ function Nav() {
         <Link to="/" className="nav-logo">
           Erik Forkin
         </Link>
-        <div className="nav-links">
-          <a href="/#apps" className="nav-link">Apps</a>
-        </div>
       </div>
     </nav>
   )

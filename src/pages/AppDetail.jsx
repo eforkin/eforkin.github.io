@@ -3,35 +3,45 @@ import './AppDetail.css'
 
 function AppDetail() {
   return (
-    <div className="app-detail">
-      <div className="app-detail-inner">
-        <div className="app-detail-content">
-          <img className="app-detail-logo" src="/img/forkitlogo.png" alt="Forkit" />
-          <h1 className="app-detail-name">Forkit</h1>
-          <p className="app-detail-desc">
+    <div className="detail">
+      <div className="detail-inner">
+        <div className="detail-hero-banner">
+          <img src="/img/forkit_front.png" alt="Forkit app" className="detail-hero-mockup" />
+        </div>
+
+        <div className="detail-info">
+          <div className="detail-info-left">
+            <img className="detail-icon" src="/img/forkitlogo.png" alt="Forkit" />
+            <div>
+              <h1 className="detail-name">Forkit - Bill Splitting</h1>
+              <p className="detail-subtitle">Split bills effortlessly</p>
+            </div>
+          </div>
+          <a
+            href="https://apps.apple.com/us/app/forkit-bill-splitting/id1316082101"
+            className="detail-get-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GET
+          </a>
+        </div>
+
+        <div className="detail-body">
+          <div className="detail-tags">
+            <span className="detail-tag">iOS</span>
+            <span className="detail-tag">Swift</span>
+          </div>
+          <p className="detail-desc">
             Split a bill much quicker than manually crunching the numbers in your head.
             Take a picture of a receipt, choose the people in your group, assign items,
             and message everyone what they owe.
           </p>
-          <div className="app-detail-tags">
-            <span className="app-detail-tag">iOS</span>
-            <span className="app-detail-tag">Swift</span>
-          </div>
-          <a
-            href="https://apps.apple.com/us/app/forkit-bill-splitting/id1316082101"
-            className="app-store-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <img src="/img/apple_store.png" alt="Download on the App Store" />
-          </a>
-          <Link to="/forkit/privacy-policy" className="privacy-link">
-            Privacy Policy
-          </Link>
         </div>
-        <div className="app-detail-mockup">
-          <img src="/img/forkit_front.png" alt="Forkit app screenshot" />
-        </div>
+
+        <Link to="/forkit/privacy-policy" className="detail-privacy">
+          Privacy Policy &rarr;
+        </Link>
       </div>
     </div>
   )
