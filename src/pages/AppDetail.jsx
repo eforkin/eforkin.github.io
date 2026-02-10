@@ -67,7 +67,7 @@ function AppDetail() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            EULA &rarr;
+            Terms of Use &rarr;
           </a>
           <a
             href="mailto:eforkin@umich.edu?subject=Forkit%20Dev%20Support"
