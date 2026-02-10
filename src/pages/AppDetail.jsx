@@ -49,7 +49,7 @@ function AppDetail() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Terms of Service &rarr;
+            EULA &rarr;
           </a>
         </div>
       </div>
