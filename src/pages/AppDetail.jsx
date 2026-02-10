@@ -14,7 +14,7 @@ function AppDetail() {
             <img className="detail-icon" src="/img/forkitlogo.png" alt="Forkit" />
             <div>
               <h1 className="detail-name">Forkit - Bill Splitting</h1>
-              <p className="detail-subtitle">Split bills effortlessly</p>
+              <p className="detail-subtitle">Split restaurant & bars bills</p>
             </div>
           </div>
           <a

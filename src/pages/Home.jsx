@@ -22,7 +22,7 @@ function Home() {
               <img src="/img/forkitlogo.png" alt="" className="featured-icon" />
               <div>
                 <h2 className="featured-name">Forkit - Bill Splitting</h2>
-                <p className="featured-subtitle">Split bills effortlessly</p>
+                <p className="featured-subtitle">Split restaurant & bars bills</p>
               </div>
             </div>
             <div className="featured-badge">GET</div>
