@@ -50,7 +50,7 @@
 
 .featured-banner {
   background: linear-gradient(145deg, #2dd4a0, #4AE2A9, #6ee7b7);
-  padding: 40px 40px 0;
+  padding: 40px 40px 20px;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -59,12 +59,11 @@
 .featured-mockup {
   max-height: 360px;
   width: auto;
-  transform: translateY(8px);
   transition: transform 0.3s ease;
 }
 
 .featured-card:hover .featured-mockup {
-  transform: translateY(0);
+  transform: translateY(-4px);
 }
 
 .featured-body {
@@ -154,7 +153,7 @@
   }
 
   .featured-banner {
-    padding: 28px 28px 0;
+    padding: 28px 28px 20px;
   }
 
   .featured-mockup {

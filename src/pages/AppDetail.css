@@ -12,7 +12,7 @@
 
 .detail-hero-banner {
   background: linear-gradient(145deg, #2dd4a0, #4AE2A9, #6ee7b7);
-  padding: 48px 48px 0;
+  padding: 48px 48px 20px;
   display: flex;
   justify-content: center;
   overflow: hidden;
@@ -21,7 +21,7 @@
 .detail-hero-mockup {
   max-height: 400px;
   width: auto;
-  transform: translateY(8px);
+  transform: translateY(0);
 }
 
 .detail-info {
@@ -128,7 +128,7 @@
 
 @media (max-width: 600px) {
   .detail-hero-banner {
-    padding: 32px 32px 0;
+    padding: 32px 32px 20px;
   }
 
   .detail-hero-mockup {
